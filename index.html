@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paises e Idiomas</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div id="pantalla" class="pantalla">
+    <form class="formulario" action="">
+      <h1 class="titulo_ventana">Paises e Idiomas</h1>
+      <img class="img_ventana" src="Ubicacion/mapa.png" alt="Mapa" />
+      <input class="caja_nombre_ventana" type="text" placeholder="Ingresa tu nombre" autofocus />
+      <button class="btn_iniciar" type="submit">Click para iniciar</button>
+    </form>
+  </div>
+
+  <main class="contenedor">
+    <section id="caja-datos" class="cajas oculto">
+      <h1 class="titulo_caja">Bienvenido</h1>
+      <div class="contendor_nombre_bandera">
+        <h2 class="nombre_pais"></h2>
+        <img src="Banderas/bandera.Png" alt="Bandera" class="bandera_pais" />
+      </div>
+      <div class="caja_info">
+        <h3 class="titulo_info">Datos generales</h3>
+        <ul class="lista_info">
+          <li class="item">Idioma:</li>
+          <li class="item">Gentilicio:</li>
+          <li class="item">Moneda:</li>
+          <li class="item">Capital:</li>
+        </ul>
+      </div>
+    </section>
+    <div id="separador" class="separacion oculto"></div>
+    <section class="cajas">
+      <img src="Ubicacion/Click.png" alt="mapa" class="ubicacion" />
+      <div class="btn_ver_mas">Ver más países</div>
+    </section>
+    <p class="copy">Desarrollado por: Alejandro Carrillo</p>
+  </main>
+  <script src="js/paises.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
